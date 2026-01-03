@@ -1,0 +1,39 @@
+[0.008s] Invoking command in '/home/chanakya/simple-hello-world-node-Chanakya-22/build/ros2_hello_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/chanakya/simple-hello-world-node-Chanakya-22 -DCMAKE_INSTALL_PREFIX=/home/chanakya/simple-hello-world-node-Chanakya-22/install/ros2_hello_world
+[0.020s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.217s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.240s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.247s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.255s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.264s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.308s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.309s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.361s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.474s] -- Configuring done (0.5s)
+[0.488s] -- Generating done (0.0s)
+[0.490s] -- Build files have been written to: /home/chanakya/simple-hello-world-node-Chanakya-22/build/ros2_hello_world
+[0.495s] Invoked command in '/home/chanakya/simple-hello-world-node-Chanakya-22/build/ros2_hello_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/chanakya/simple-hello-world-node-Chanakya-22 -DCMAKE_INSTALL_PREFIX=/home/chanakya/simple-hello-world-node-Chanakya-22/install/ros2_hello_world
+[0.497s] Invoking command in '/home/chanakya/simple-hello-world-node-Chanakya-22/build/ros2_hello_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/chanakya/simple-hello-world-node-Chanakya-22/build/ros2_hello_world -- -j32 -l32
+[0.565s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_node.dir/src/hello_node.cpp.o[0m
+[2.439s] [100%] [32m[1mLinking CXX executable hello_node[0m
+[2.549s] [100%] Built target hello_node
+[2.560s] Invoked command in '/home/chanakya/simple-hello-world-node-Chanakya-22/build/ros2_hello_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/chanakya/simple-hello-world-node-Chanakya-22/build/ros2_hello_world -- -j32 -l32
+[2.569s] Invoking command in '/home/chanakya/simple-hello-world-node-Chanakya-22/build/ros2_hello_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/chanakya/simple-hello-world-node-Chanakya-22/build/ros2_hello_world
+[2.579s] -- Install configuration: ""
+[2.579s] -- Installing: /home/chanakya/simple-hello-world-node-Chanakya-22/install/ros2_hello_world/lib/ros2_hello_world/hello_node
+[2.579s] -- Set non-toolchain portion of runtime path of "/home/chanakya/simple-hello-world-node-Chanakya-22/install/ros2_hello_world/lib/ros2_hello_world/hello_node" to ""
+[2.579s] -- Installing: /home/chanakya/simple-hello-world-node-Chanakya-22/install/ros2_hello_world/share/ament_index/resource_index/package_run_dependencies/ros2_hello_world
+[2.580s] -- Installing: /home/chanakya/simple-hello-world-node-Chanakya-22/install/ros2_hello_world/share/ament_index/resource_index/parent_prefix_path/ros2_hello_world
+[2.580s] -- Installing: /home/chanakya/simple-hello-world-node-Chanakya-22/install/ros2_hello_world/share/ros2_hello_world/environment/ament_prefix_path.sh
+[2.581s] -- Installing: /home/chanakya/simple-hello-world-node-Chanakya-22/install/ros2_hello_world/share/ros2_hello_world/environment/ament_prefix_path.dsv
+[2.581s] -- Installing: /home/chanakya/simple-hello-world-node-Chanakya-22/install/ros2_hello_world/share/ros2_hello_world/environment/path.sh
+[2.581s] -- Installing: /home/chanakya/simple-hello-world-node-Chanakya-22/install/ros2_hello_world/share/ros2_hello_world/environment/path.dsv
+[2.581s] -- Installing: /home/chanakya/simple-hello-world-node-Chanakya-22/install/ros2_hello_world/share/ros2_hello_world/local_setup.bash
+[2.581s] -- Installing: /home/chanakya/simple-hello-world-node-Chanakya-22/install/ros2_hello_world/share/ros2_hello_world/local_setup.sh
+[2.581s] -- Installing: /home/chanakya/simple-hello-world-node-Chanakya-22/install/ros2_hello_world/share/ros2_hello_world/local_setup.zsh
+[2.582s] -- Installing: /home/chanakya/simple-hello-world-node-Chanakya-22/install/ros2_hello_world/share/ros2_hello_world/local_setup.dsv
+[2.582s] -- Installing: /home/chanakya/simple-hello-world-node-Chanakya-22/install/ros2_hello_world/share/ros2_hello_world/package.dsv
+[2.582s] -- Installing: /home/chanakya/simple-hello-world-node-Chanakya-22/install/ros2_hello_world/share/ament_index/resource_index/packages/ros2_hello_world
+[2.582s] -- Installing: /home/chanakya/simple-hello-world-node-Chanakya-22/install/ros2_hello_world/share/ros2_hello_world/cmake/ros2_hello_worldConfig.cmake
+[2.582s] -- Installing: /home/chanakya/simple-hello-world-node-Chanakya-22/install/ros2_hello_world/share/ros2_hello_world/cmake/ros2_hello_worldConfig-version.cmake
+[2.582s] -- Installing: /home/chanakya/simple-hello-world-node-Chanakya-22/install/ros2_hello_world/share/ros2_hello_world/package.xml
+[2.583s] Invoked command in '/home/chanakya/simple-hello-world-node-Chanakya-22/build/ros2_hello_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/chanakya/simple-hello-world-node-Chanakya-22/build/ros2_hello_world

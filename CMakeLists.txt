@@ -5,18 +5,19 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
-# find dependencies
+# 1. Find the ROS2 C++ library
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 
-# TODO: Add the executable target named 'hello_node'
-# 1. Add executable using src/hello_node.cpp
-# 2. Add dependencies (ament_target_dependencies) for rclcpp
-# 3. Install the target to the DESTINATION lib/${PROJECT_NAME}
+# 2. Define the executable (hello_node) and its source file
+add_executable(hello_node src/hello_node.cpp)
 
-if(BUILD_TESTING)
-  find_package(ament_lint_auto REQUIRED)
-  ament_lint_auto_find_test_dependencies()
-endif()
+# 3. Link the executable to rclcpp
+ament_target_dependencies(hello_node rclcpp)
+
+# 4. Install the executable to the package directory
+install(TARGETS hello_node
+  DESTINATION lib/${PROJECT_NAME}
+)
 
 ament_package()
